@@ -1,0 +1,29 @@
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# Python artifacts
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/data_storage/database.json
+
+# Node & Frontend artifacts
+node_modules/
+frontend/dist/
+.vite/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
