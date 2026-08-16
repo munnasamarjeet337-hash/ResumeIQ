@@ -11,7 +11,6 @@ __pycache__/
 *.pyd
 .Python
 *.egg-info/
-dist/
 build/
 backend/uploads/*
 !backend/uploads/.gitkeep
@@ -19,8 +18,10 @@ backend/data_storage/database.json
 
 # Node & Frontend artifacts
 node_modules/
-frontend/dist/
 .vite/
+
+# Keep backend pre-built dist for 1-click cloud deployments
+!backend/dist/**
 
 # OS and IDE files
 .DS_Store
