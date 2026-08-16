@@ -1,5 +1,5 @@
 # ResumeIQ — AI-Powered Resume Analyzer & Job Recommendation System
-
+URL- https://resumeiq-0rxz.onrender.com/
 ResumeIQ is a full-stack, enterprise-grade AI resume scoring and career intelligence platform. It parses PDF and DOCX resumes, extracts key skills and entities via spaCy NLP, computes a 4-part weighted ATS score, and matches candidates to target roles using TF-IDF cosine similarity.
 
 ---
